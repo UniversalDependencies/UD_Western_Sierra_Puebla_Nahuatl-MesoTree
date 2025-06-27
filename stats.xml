@@ -5,88 +5,91 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>909</sentences><tokens>9225</tokens><words>10114</words><fused>819</fused></total>
+    <total><sentences>909</sentences><tokens>9224</tokens><words>10132</words><fused>835</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>909</sentences><tokens>9225</tokens><words>10114</words><fused>819</fused></test>
+    <test><sentences>909</sentences><tokens>9224</tokens><words>10132</words><fused>835</fused></test>
   </size>
-  <lemmas unique="1653" /><!-- ., o, ,, in, n, amo, wan, ya, de, se, uan, tich, ompa, —, ? -->
-  <forms unique="2472" /><!-- ., o, ,, n, in, amo, wan, de, se, uan, ya, ompa, —, ?, neh -->
-  <fusions unique="569" /><!-- oquihtoh, onauat, okatka, oyah, opeu, yen, ocatca, opew, nisihtzin, onipiyaya, oyahkeh, octlahtlanih, oniniquiya, owits, den -->
+  <lemmas unique="1639" /><!-- ., o, in, ,, amo, wan, ya, de, se, uan, tich, ompa, —, ?, katki -->
+  <forms unique="2478" /><!-- ., o, ,, n, in, amo, wan, de, se, uan, ya, ompa, —, ?, neh -->
+  <fusions unique="583" /><!-- oquihtoh, onauat, okatka, oyah, opeu, yen, ocatca, opew, nisihtzin, onipiyaya, oyahkeh, octlahtlanih, oniniquiya, owits, den -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">136</tag><!-- kwali, weyi, cualli, igual, kwaltsih, atrasado, nuevo, patronal, _, cerca -->
+    <tag name="ADJ">137</tag><!-- kwali, weyi, cualli, igual, kwaltsih, atrasado, nuevo, patronal, _, cerca -->
     <tag name="ADP">232</tag><!-- de, para, a, por, hasta, en, quemeh, desde, ic, ik -->
-    <tag name="ADV">1343</tag><!-- amo, ya, ompa, nikah, simi, san, después, ohcon, ok, ohkon -->
-    <tag name="AUX">805</tag><!-- o, ma, mo, katki, pewi, catqui, mach, wili, ser, uili -->
+    <tag name="ADV">1342</tag><!-- amo, ya, ompa, nikah, simi, san, después, ohcon, ok, ohkon -->
+    <tag name="AUX">816</tag><!-- o, ma, mo, katki, pewi, catqui, _, mach, wili, ser -->
     <tag name="CCONJ">399</tag><!-- wan, uan, pero, huan, o, y, mas -->
-    <tag name="DET">944</tag><!-- in, n, se, non, nin, ce, nochi, siki, cada, miak -->
+    <tag name="DET">945</tag><!-- in, se, non, nin, ce, nochi, siki, cada, miak, ciqui -->
     <tag name="INTJ">61</tag><!-- ay, quemah, sí, aa, quema, bueno, queutoc, ah, cuixi, ja -->
-    <tag name="NOUN">1477</tag><!-- tich, pueblo, itskwintli, itzcuintli, atl, rana, ca, ka, telpukatl, ikni -->
+    <tag name="NOUN">1484</tag><!-- tich, pueblo, maman, itskwintli, itzcuintli, atl, rana, ca, ka, telpukatl -->
     <tag name="NUM">74</tag><!-- ome, quince, yeyi, caxtol, ce, o, cuatro, ocho, tres, dieciocho -->
-    <tag name="PRON">506</tag><!-- tlenoh, yehuatl, non, nehhuatl, nehuatl, tlen, nochi, yehwatl, neh, yeh -->
+    <tag name="PRON">508</tag><!-- tlenoh, nehuatl, yehwatl, yehuatl, non, nehhuatl, tlen, nochi, yehhuatl, nehwatl -->
     <tag name="PROPN">211</tag><!-- ticpintzin, ticpinitos, Lupita, san, dios, pedro, francisco, lencho, mexico, estados -->
     <tag name="PUNCT">1853</tag><!-- ., ,, —, ?, !, ¿, ¡, :, -, “ -->
     <tag name="SCONJ">292</tag><!-- que, para, porque, tla, in, cuando, ihcuac, como, nic, tlen -->
-    <tag name="VERB">1776</tag><!-- katki, piya, ita, ihtoa, chiwa, mati, yawi, yowi, nauat, yahui -->
+    <tag name="VERB">1773</tag><!-- katki, piya, ita, ihtoa, chiwa, mati, yawi, yowi, nauat, yahui -->
     <tag name="X">5</tag><!-- _, in -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="55">
-    <feat name="Animacy[obj]" value="Hum" upos="VERB">2</feat><!-- Intekakilia, cectemacaz -->
-    <feat name="Animacy[obj]" value="Nhum" upos="VERB">40</feat><!-- inquintlamaca, tlakwa, tlatemoa, sekintlanamakiltihtok, titlapiyayah, tlahtoua, tlajtowaj, ittlakwajtoc, mitztlamacas, nitlakixtia -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">154</feat><!-- katka, catca, nipiyaya, niniquiya, cmatia, cpiyaya, nechilhuaya, niquilhuaya, tiquitiya, yaya -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">378</feat><!-- quihtoh, nauat, yah, peu, pew, yahkeh, choloh, ctlahtlanih, wits, ehcoc -->
-    <feat name="Aspect" value="Prog" upos="VERB">75</feat><!-- tikitok, kichihchiwtok, kipixtok, nitiquitoc, tsikwintok, cchixtoya, cholohtokeh, ilpitoya, molevantarohtok, niyolpactoc -->
-    <feat name="Case" value="Abs" upos="NOUN">321</feat><!-- atl, itzcuintli, telpukatl, ilwitl, itskwintli, tlakatl, masatl, altipetl, kowatl, tikitl -->
+  <feats unique="58">
+    <feat name="Animacy[obj]" value="Hum" upos="VERB">3</feat><!-- Intekakilia, cectemacaz, ntecaquilih -->
+    <feat name="Animacy[obj]" value="Nhum" upos="VERB">56</feat><!-- inquintlamaca, tlakwa, tlatemoa, sekintlanamakiltihtok, titlapiyayah, tlahtoua, tlajtowaj, ictlamacasqueh, ictlamacatiueh, ittlacuasqueh -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">173</feat><!-- katka, catca, nipiyaya, niniquiya, cmatia, cpiyaya, nechilhuaya, niquilhuaya, tiquitiya, yaya -->
+    <feat name="Aspect" value="Perf" upos="VERB">479</feat><!-- quihtoh, nauat, yah, peu, pew, yahkeh, choloh, ctlahtlanih, wits, cahsito -->
+    <feat name="Aspect" value="Prog" upos="VERB">100</feat><!-- tikitok, kichihchiwtok, kipixtok, nitiquitoc, tentok, tsikwintok, cchixtoya, cholohtokeh, cualantoc, ilpitoya -->
+    <feat name="Case" value="Abs" upos="NOUN">343</feat><!-- atl, itzcuintli, telpukatl, ilwitl, itskwintli, tlakatl, masatl, altipetl, kowatl, tikitl -->
     <feat name="Case" value="Acc" upos="PRON">1</feat><!-- lo -->
-    <feat name="Degree" value="Dim" upos="ADJ,ADV,NOUN,PRON,PROPN">53</feat><!-- Ticpintzin, isihtzin, tipitzin, tzocotzin, namejwantzitzin, Nosintitzin, chacaltzitzin, hueyihtzin, itzcuintzintli, kualtzin -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">919</feat><!-- de, para, después, pueblo, hasta, topueblo, a, entonces, escuela, pero -->
-    <feat name="Gender" value="Fem" upos="NOUN">33</feat><!-- figuras, costumbre, alfalfa, arpas, artesaniaj, barnis, bola, cajitas, col, cuerdas -->
-    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PRON,PROPN">86</feat><!-- burro, Rancho, karroh, libroh, mexicanos, pajaro, cristeros, dólar, mar, mexicano -->
-    <feat name="Mood" value="Cnd" upos="VERB">7</feat><!-- ntlasojtlaskia, nmitzwalikiliskia, nmokowiskia, twiliskia -->
-    <feat name="Mood" value="Ind" upos="VERB">3</feat><!-- es, tehco, yah -->
-    <feat name="Mood" value="Opt" upos="AUX,VERB">90</feat><!-- xiyo, ixquita, kiseguiro, Ixcochi, cequitta, ito, ixmeua, ixtlaocoya, moskalti, motlamochiwa -->
-    <feat name="Movement" value="And" upos="VERB">62</feat><!-- moweyilihtih, cahsito, ccahcalaquito, chanchiwatoh, kipantlatiwitih, cnaliluih, ctemoto, Mopatlatiweh, ahcito, atlitiu -->
-    <feat name="Movement" value="Ven" upos="VERB">26</feat><!-- walah, walkisa, chualitac, cualan, hualah, ixquimahsiqui, kanakih, kiyakatitiki, niquitaqui, niwalmokopas -->
-    <feat name="NounType" value="Relat" upos="NOUN">166</feat><!-- ich, itich, ica, ika, iwah, iuan, tohuan, inacasco, itlampa, iwan -->
-    <feat name="Number" value="Plur" upos="ADJ,NOUN,NUM,PRON,PROPN">321</feat><!-- tokniwah, tehwah, danzas, yejwan, estados, años, ceraokwilimeh, coyomeh, mopiluan, niconeuan -->
-    <feat name="Number" value="Sing" upos="ADJ,NOUN,PRON,PROPN">1167</feat><!-- neh, yeh, ich, itich, atl, ica, ika, itzcuintli, pueblo, telpukatl -->
-    <feat name="Number[dat]" value="Plur" upos="VERB">25</feat><!-- inquintlamaca, techmaka, itquinmaca, sekintlanamakiltihtok, techchiuilis, techilweh, namechchiuilisqueh, namechpixquiltisqueh, nankimonchiwiliaj, quimiluih -->
-    <feat name="Number[dat]" value="Sing" upos="VERB">47</feat><!-- nechilhuaya, niquilhuaya, cnaliluih, kilwia, kilwiah, nechmakakeh, quiluih, Inmitzilwia, Ixnechmaka, Ixnechonmaka -->
-    <feat name="Number[obj]" value="Plur" upos="VERB">72</feat><!-- kinchiwaj, kinkowaj, quinpiyaya, quintlasohtlaya, Techtrataroa, cequimpiya, inquincuis, ittechonmatlanis, ixquimahsiqui, ixtechonahua -->
-    <feat name="Number[obj]" value="Sing" upos="VERB">456</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, kitlasohtla, nicpiya -->
-    <feat name="Number[psor]" value="Plur" upos="NOUN">88</feat><!-- topueblo, tokniwah, iwah, inchan, iuan, totikih, ima, toaltipew, tohuan, tokniwan -->
-    <feat name="Number[psor]" value="Sing" upos="NOUN">331</feat><!-- ich, itich, ica, ika, itoka, itskwih, irana, nomama, mopiluan, niconeuan -->
-    <feat name="Number[subj]" value="Plur" upos="AUX,NOUN,NUM,VERB">530</feat><!-- itich, katka, catca, sekichiwa, yahkeh, yuweh, yuwi, kateh, cahsito, ccahcalaquito -->
-    <feat name="Number[subj]" value="Sing" upos="AUX,NOUN,VERB">987</feat><!-- katki, quihtoh, nauat, yah, mota, pewi, niquihtoz, peu, nesi, niquihlnamiqui -->
+    <feat name="Degree" value="Dim" upos="ADJ,ADV,NOUN,PRON,PROPN">62</feat><!-- Ticpintzin, isihtzin, tipitzin, tenantzin, tzocotzin, guitarritas, namejwantzitzin, Nosintitzin, chacaltzitzin, chihchikichih -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">940</feat><!-- de, para, después, pueblo, hasta, topueblo, a, entonces, escuela, pero -->
+    <feat name="Gender" value="Fem" upos="NOUN">179</feat><!-- escuela, rana, danzas, irana, guerra, fiesta, máquina, conchas, días, historia -->
+    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PRON,PROPN">211</feat><!-- pueblo, topueblo, burro, años, frasco, ejemplo, mardomos, pollito, Rancho, amigos -->
+    <feat name="Mood" value="Cnd" upos="VERB">19</feat><!-- ntlasojtlaskia, xnechoncaquinih, cchiuilsquiah, kyektlalani, nmitzwalikiliskia, nmokowani, nmokowiskia, nyani, nyaskia, okaltlachixtoskia -->
+    <feat name="Mood" value="Imp" upos="VERB">52</feat><!-- xiyo, ixquita, Ixcochi, ixmeua, ixtlaocoya, nikixmati, xiyahkah, xoncualani, Ixcaqui, Ixnechmaka -->
+    <feat name="Mood" value="Ind" upos="VERB">1552</feat><!-- katki, quihtoh, nauat, yah, mota, katka, niquihtoz, peu, yuwi, nesi -->
+    <feat name="Mood" value="Opt" upos="AUX,VERB">42</feat><!-- kiseguiro, Chaueh, cequitta, ito, moskalti, motlamochiwa, tiakan, Chuhue, ceicxipalti, cequimpiya -->
+    <feat name="Mood" value="Prp" upos="VERB">73</feat><!-- moweyilihtih, cahsito, ccahcalaquito, chanchiwatoh, kipantlatiwitih, cnaliluih, ctemoto, Iktato, Mopatlatiweh, ahcito -->
+    <feat name="Mood" value="Sub" upos="VERB">1</feat><!-- sea -->
+    <feat name="Movement" value="Ven" upos="VERB">34</feat><!-- walah, walkisa, chualitac, cualan, hualah, ixquimahsiqui, kanakih, kiyakatitiki, nakwalnotzkej, namechonajsikiw -->
+    <feat name="NounType" value="Relat" upos="NOUN">195</feat><!-- ich, itich, ica, ika, iwah, inuan, iuan, icah, ikaj, ijtik -->
+    <feat name="Number" value="Plur" upos="ADJ,NOUN,NUM,PRON,PROPN">350</feat><!-- tokniwah, tehwah, danzas, yejwan, estados, años, ceraokwilimeh, coyomeh, mopiluan, niconeuan -->
+    <feat name="Number" value="Sing" upos="ADJ,NOUN,PRON,PROPN">1168</feat><!-- neh, yeh, ich, itich, atl, ica, ika, itzcuintli, pueblo, telpukatl -->
+    <feat name="Number[dat]" value="Plur" upos="VERB">26</feat><!-- inquintlamaca, techmaka, itquinmaca, sekintlanamakiltihtok, techchiuilis, techilweh, kimlwih, namechchiuilisqueh, namechpixquiltisqueh, nankimonchiwiliaj -->
+    <feat name="Number[dat]" value="Sing" upos="VERB">71</feat><!-- nechilhuaya, niquilhuaya, cnaliluih, icchiuilia, kilwia, kilwiah, nechmakakeh, quiluih, Inkakiltia, Inmitzilwia -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">88</feat><!-- kinchiwaj, kinkowaj, quinpiyaya, quintlasohtlaya, Innamechonnonotzas, Namechcuecuechosque, Techmojmojtijtos, Techtrataroa, cequimpiya, inquincuis -->
+    <feat name="Number[obj]" value="Sing" upos="VERB">590</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, kitlasohtla, nicpiya -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN">107</feat><!-- topueblo, tokniwah, iwah, inchan, inuan, iuan, ninmaman, totikih, ima, intempileh -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">379</feat><!-- ich, itich, ica, ika, itoka, itskwih, irana, nomama, mopiluan, niconeuan -->
+    <feat name="Number[subj]" value="Plur" upos="AUX,NOUN,NUM,VERB">644</feat><!-- itich, katka, catca, sekichiwa, yahkeh, yuweh, yuwi, kateh, cahsito, ccahcalaquito -->
+    <feat name="Number[subj]" value="Sing" upos="AUX,NOUN,VERB">1185</feat><!-- katki, quihtoh, nauat, yah, mota, pewi, niquihtoz, peu, nesi, niquihlnamiqui -->
     <feat name="Person" value="1" upos="PRON">107</feat><!-- neh, tehwah, nej, tehuan, nehwatl, tehhuan, notewah, tehwan, tejwan -->
     <feat name="Person" value="2" upos="PRON">26</feat><!-- teh, touatzin, tej -->
     <feat name="Person" value="3" upos="PRON">118</feat><!-- yeh, yej, yejwan, ye, yehuan, yehwah, yehwatl, lo, yehhuan -->
-    <feat name="Person[dat]" value="1" upos="VERB">24</feat><!-- techmaka, nechilhuaya, nechmakakeh, techchiuilis, techilweh, Ixnechmaka, Ixnechonmaka, Nechilwiaj, nechihlhuaya, nechilhue -->
-    <feat name="Person[dat]" value="2" upos="VERB">10</feat><!-- Inmitzilwia, inmitziluis, inmitzwalikilis, mitztlamacas, namechchiuilisqueh, namechpixquiltisqueh, nimitzcohuiz, nimitzincohuiliz, nmitziluih, nmitzwalikiliskia -->
-    <feat name="Person[dat]" value="3" upos="VERB">38</feat><!-- inquintlamaca, itquinmaca, niquilhuaya, cnaliluih, kilwia, kilwiah, quiluih, sekintlanamakiltihtok, cectemacaz, cmouilihqueh -->
-    <feat name="Person[obj]" value="1" upos="VERB">36</feat><!-- nechkokowa, Onechajsik, Techtrataroa, Tinechcactoc, ittechonmatlanis, ixnechcaqui, ixtechonahua, ixtechonmatlani, nechcahcayau, nechcocoua -->
-    <feat name="Person[obj]" value="2" upos="VERB">14</feat><!-- nimitzpalehuiz, Itmitzmochiyalia, mitzijijtowaj, mitzonwikak, mitzpactiya, namechcuasqueh, namechontlachtikiliaj, namechyectlalisqueh, nimitsnonots, nomechonnonots -->
-    <feat name="Person[obj]" value="3" upos="VERB">520</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, kitlasohtla, nicpiya -->
-    <feat name="Person[psor]" value="1" upos="NOUN">113</feat><!-- topueblo, tokniwah, nomama, tonnomaman, notlahuical, nochan, notzcuin, totikih, nocnihuan, nocompañeros -->
-    <feat name="Person[psor]" value="2" upos="NOUN">20</feat><!-- mopiluan, mochah, mochantzin, mocniuan, mopaleta, mopilhuan, motareas, moticachuan, motookaa, mowah -->
-    <feat name="Person[psor]" value="3" upos="NOUN">286</feat><!-- ich, itich, ica, ika, itoka, iwah, itskwih, irana, niconeuan, itoca -->
-    <feat name="Person[subj]" value="1" upos="AUX,NOUN,NUM,VERB">417</feat><!-- itich, niquihtoz, niquihlnamiqui, niyaz, sekichiwa, nipiyaya, inhuili, nicpiya, niniquiya, inquintlamaca -->
-    <feat name="Person[subj]" value="2" upos="AUX,NOUN,VERB">129</feat><!-- tiyas, itmatis, tonnomaman, xiyo, itquinmaca, ixquita, Ixcochi, Tikwikas, itmati, itpiya -->
-    <feat name="Person[subj]" value="3" upos="AUX,NOUN,VERB">971</feat><!-- katki, quihtoh, nauat, katka, yah, mota, pewi, peu, yuwi, catca -->
+    <feat name="Person[dat]" value="1" upos="VERB">30</feat><!-- techmaka, nechilhuaya, nechmakakeh, techchiuilis, techilweh, Ixnechmaka, Ixnechonmaka, Nechilwiaj, nechchiwilayaj, nechihlhuaya -->
+    <feat name="Person[dat]" value="2" upos="VERB">12</feat><!-- Inmitzilwia, Inmitzontlasoj, inmitziluis, inmitzwalikilis, mitzonilwij, mitztlamacas, namechchiuilisqueh, namechpixquiltisqueh, nimitzcohuiz, nimitzincohuiliz -->
+    <feat name="Person[dat]" value="3" upos="VERB">55</feat><!-- inquintlamaca, itquinmaca, niquilhuaya, cnaliluih, icchiuilia, kilwia, kilwiah, quiluih, sekintlanamakiltihtok, Inkakiltia -->
+    <feat name="Person[obj]" value="1" upos="VERB">48</feat><!-- nechkokowa, xnechoncaquinih, Ixnechniltocacan, Onechajsik, Techmojmojtijtos, Techtrataroa, Tinechcactoc, itnechowikas, ittechonmatlanis, ixnechcaqui -->
+    <feat name="Person[obj]" value="2" upos="VERB">24</feat><!-- nimitzpalehuiz, Inmitzontlatlawtia, Innamechonnonotzas, Itmitzmochiyalia, Namechcuecuechosque, mitzijijtowaj, mitzonwikak, mitzpactiya, namechcuasqueh, namechonajsikiw -->
+    <feat name="Person[obj]" value="3" upos="VERB">648</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, kitlasohtla, nicpiya -->
+    <feat name="Person[psor]" value="1" upos="NOUN">118</feat><!-- topueblo, tokniwah, nomama, tonnomaman, notlahuical, nochan, notzcuin, totikih, nocnihuan, nocompañeros -->
+    <feat name="Person[psor]" value="2" upos="NOUN">25</feat><!-- mopiluan, mochah, mochantzin, mocniuan, moixkuya, mopaleta, mopapan, mopilhuan, motareas, moticachuan -->
+    <feat name="Person[psor]" value="3" upos="NOUN">343</feat><!-- ich, itich, ica, ika, itoka, iwah, itskwih, irana, niconeuan, itoca -->
+    <feat name="Person[subj]" value="1" upos="AUX,NOUN,NUM,VERB">481</feat><!-- itich, niquihtoz, niquihlnamiqui, niyaz, sekichiwa, nipiyaya, inhuili, nicpiya, niniquiya, inquintlamaca -->
+    <feat name="Person[subj]" value="2" upos="AUX,NOUN,VERB">184</feat><!-- tiyas, itmatis, tonnomaman, xiyo, itkwalikas, itquinmaca, ixquita, Ixcochi, Tikwikas, itmati -->
+    <feat name="Person[subj]" value="3" upos="AUX,NOUN,VERB">1164</feat><!-- katki, quihtoh, nauat, katka, yah, mota, pewi, peu, yuwi, catca -->
     <feat name="Polarity" value="Neg" upos="ADV">174</feat><!-- amo, akmo -->
-    <feat name="Polite" value="Form" upos="NOUN,PRON,VERB">33</feat><!-- tonnomaman, touatzin, Ixnechonmaka, itconchiuas, itkonkowas, itkonniki, itkonnikis, ittechonmatlanis, ixcontlalili, ixtechonahua -->
-    <feat name="PronType" value="Prs" upos="PRON">252</feat><!-- neh, yeh, teh, yej, tehwah, yejwan, touatzin, ye, nehwatl, nej -->
+    <feat name="Polite" value="Form" upos="NOUN,PRON,VERB">58</feat><!-- tonnomaman, touatzin, xnechoncaquinih, xoncualani, Inmitzontlasoj, Inmitzontlatlawtia, Innamechonnonotzas, Itkomonikiltijtzinowa, Ixnechonmaka, cmopaleuilih -->
+    <feat name="PronType" value="Prs" upos="PRON">254</feat><!-- neh, yeh, teh, yej, tehwah, yejwan, touatzin, ye, nehwatl, nej -->
     <feat name="Reflex" value="Yes" upos="VERB">101</feat><!-- moniki, monacasmahman, mocelebraroa, mochih, mochiwa, mokawa, inmokawas, ixmeua, moapareserowa, mocaquiya -->
-    <feat name="Subcat" value="Intr" upos="AUX,VERB">576</feat><!-- katki, nauat, katka, yah, pewi, mota, peu, yuwi, catca, nesi -->
-    <feat name="Subcat" value="Tran" upos="AUX,VERB">878</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, itmatis, kitlasohtla -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">162</feat><!-- niquihtoz, niyaz, tiyas, itmatis, niyas, tlamis, pewis, Tikwikas, atliz, inchihuaz -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">576</feat><!-- quihtoh, nauat, katka, yah, peu, catca, pew, nipiyaya, yahkeh, choloh -->
-    <feat name="Tense" value="Pqp" upos="VERB">1</feat><!-- cholohca -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">350</feat><!-- katki, pewi, yuwi, yuweh, kah, kateh, moweyilihtih, nesi, tikitok, ehko -->
+    <feat name="Subcat" value="Intr" upos="AUX,VERB">658</feat><!-- katki, nauat, katka, yah, pewi, mota, peu, yuwi, catca, nesi -->
+    <feat name="Subcat" value="Tran" upos="AUX,VERB">1097</feat><!-- quihtoh, niquihtoz, niquihlnamiqui, sekichiwa, kiniki, kita, nipiyaya, ctlahtlanih, itmatis, kitlasohtla -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">215</feat><!-- niquihtoz, niyaz, tiyas, itmatis, niyas, tlamis, icchiuas, itkwalikas, pewis, Tikwikas -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">664</feat><!-- quihtoh, nauat, katka, yah, peu, catca, pew, nipiyaya, yahkeh, choloh -->
+    <feat name="Tense" value="Pqp" upos="VERB">2</feat><!-- cholohca, yomikka -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">475</feat><!-- katki, pewi, yuwi, kah, yuweh, kateh, moweyilihtih, nesi, tikitok, ehko -->
     <feat name="Typo" value="Yes" upos="ADV,NOUN,VERB">13</feat><!-- in, Amo, Kanji, cnamiqia, conhas, ik, ittalpachosqueh, ixtzitzqui, kinuij, monquis -->
-    <feat name="VerbForm" value="Fin" upos="VERB">239</feat><!-- katki, peu, ctlahtlanih, moweyilihtih, nauat, nesi, tlamis, walahkeh, mocelebraroa, panok -->
+    <feat name="VerbForm" value="Fin" upos="VERB">1734</feat><!-- katki, quihtoh, nauat, yah, mota, katka, niquihtoz, peu, yuwi, nesi -->
+    <feat name="VerbForm" value="Inf" upos="VERB">4</feat><!-- ver, dar -->
     <feat name="Voice" value="Act" upos="VERB">2</feat><!-- tehco, yah -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -94,11 +97,11 @@
     <dep name="acl">90</dep>
     <dep name="acl:relcl">16</dep>
     <dep name="advcl">251</dep>
-    <dep name="advmod">1236</dep>
+    <dep name="advmod">1235</dep>
     <dep name="advmod:neg">4</dep>
     <dep name="amod">41</dep>
     <dep name="appos">49</dep>
-    <dep name="aux">774</dep>
+    <dep name="aux">785</dep>
     <dep name="case">185</dep>
     <dep name="cc">398</dep>
     <dep name="ccomp">96</dep>
@@ -107,7 +110,7 @@
     <dep name="cop">51</dep>
     <dep name="csubj">46</dep>
     <dep name="dep">4</dep>
-    <dep name="det">922</dep>
+    <dep name="det">923</dep>
     <dep name="discourse">79</dep>
     <dep name="dislocated">19</dep>
     <dep name="fixed">82</dep>
@@ -115,11 +118,11 @@
     <dep name="goeswith">4</dep>
     <dep name="iobj">19</dep>
     <dep name="mark">324</dep>
-    <dep name="nmod">292</dep>
+    <dep name="nmod">296</dep>
     <dep name="nsubj">748</dep>
     <dep name="nummod">39</dep>
     <dep name="obj">406</dep>
-    <dep name="obl">362</dep>
+    <dep name="obl">365</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">231</dep>
     <dep name="punct">1853</dep>
