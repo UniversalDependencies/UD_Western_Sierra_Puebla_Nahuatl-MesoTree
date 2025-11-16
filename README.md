@@ -1,10 +1,12 @@
 # Summary
 
-UD Western Sierra Puebla Nahuatl-MesoTree is a combination of the existing UD Western Sierra Puebla Nahuatl-IU treebank (ITML) (with some updates to annotations due to caught errors or changes annotation decisions) and new sentences annotated as part of the NSF-funded project, "Syntactically-annotated corpora for endangered languages in areal contact" (MesoTree), The treebank consists of sentences from written fiction and non-fiction, spontanenous speech, and grammar examples. The new additions also consist of a large chunk of sentences (ALIMG) translated into two subvarieties of the language, one from San Miguel Tenango, Zacatlán, and another from Omitlán, Tepetzintla.
+UD Western Sierra Puebla Nahuatl-MesoTree is a combination of the existing UD Western Sierra Puebla Nahuatl-IU treebank (ITML) (with some updates to annotations due to caught errors or changes annotation decisions) and new sentences annotated as part of the NSF-funded project, "Syntactically-annotated corpora for endangered languages in areal contact" (MesoTree).
 
 # Introduction
 
 The ITML treebank was pre-annotated for morphology using the [`apertium-nhi`](https://github.com/apertium/apertium-nhi/) (Pugh et al, 2021). The morphological analyses were disambiguated and annotated for dependency structure by hand. The MesoTree data does not include morphological analyses at this time.
+
+The treebank consists of sentences from written fiction and non-fiction, spontanenous speech, and grammar examples. The new additions also consist of a large chunk of sentences (ALIMG) translated into two subvarieties of the language, one from San Miguel Tenango, Zacatlán, and another from Omitlán, Tepetzintla.
 
 # Citation
 If you use this treebank in your research, please cite:
