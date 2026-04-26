@@ -14889,7 +14889,7 @@
 2	otiquimitaqueh	itta	VERB	_	_	0	root	0:root	_
 3	itich	tich	NOUN	_	_	2	obl	2:obl	_
 4	in	in	DET	_	_	5	det	5:det	_
-5	mercado	mercado	NOUN	_	_	3	obl	3:obl	SpaceAfter=No
+5	mercado	mercado	NOUN	_	_	3	nmod	3:nmod	SpaceAfter=No
 
 # user_id = Lguyogiro
 # timestamp = 1738869548138
@@ -42082,7 +42082,7 @@
 8	tomin	tomin	NOUN	_	Case=Abs|Number=Sing	6	obl	6:obl	Gloss=dinero|NormalizedForm=tomin|NormalizedLemma=tomin|Orig=tomin
 9	wanamo	wanamo	SCONJ	_	_	11	case	11:case	Gloss=que|NormalizedForm=wanamo|NormalizedLemma=wanamo|Orig=wanamo
 10	in	in	DET	_	_	11	det	11:det	Gloss=los|NormalizedForm=in|NormalizedLemma=in|Orig=in
-11	oksikin	oksikin	PRON	_	_	8	obl	8:obl	Gloss=otros|NormalizedForm=oksikin|NormalizedLemma=oksikin|Orig=oksikin|SpaceAfter=No
+11	oksikin	oksikin	PRON	_	_	7	obl	7:obl	Gloss=otros|NormalizedForm=oksikin|NormalizedLemma=oksikin|Orig=oksikin|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	7:punct	Gloss=.|NormalizedForm=.|NormalizedLemma=.|Orig=.
 
 # sent_id = tenango:22:5
@@ -47282,7 +47282,7 @@
 # text = Mostlah ica mic paquilistli, in tlalticpactlacameh quicuah mic tlaxcal.
 # labels = partial
 1	Mostlah	mostlah	ADV	_	_	8	advmod	8:advmod	NormalizedForm=mostlah|NormalizedLemma=mostlah
-2	ica	ca	NOUN	_	Number=Sing	7	obl	7:obl	NormalizedForm=ika|NormalizedLemma=ka|NounType=Relat|Number[psor]=Sing|Person[psor]=3
+2	ica	ca	NOUN	_	Number=Sing	8	obl	8:obl	NormalizedForm=ika|NormalizedLemma=ka|NounType=Relat|Number[psor]=Sing|Person[psor]=3
 3	mic	miac	DET	_	_	4	det	4:det	NormalizedForm=mik|NormalizedLemma=miak
 4	paquilistli	paquilistli	NOUN	_	Case=Abs|Number=Sing	2	nmod	2:nmod	NormalizedForm=pakilistli|NormalizedLemma=pakilistli|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	2:punct	NormalizedForm=,|NormalizedLemma=,
