@@ -1,54 +1,60 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Western_Sierra_Puebla_Nahuatl-ITML:
-commit b20a50971362189c1e49eb01b40ff6ad2b7d6904
-Merge: 011c2e0 50e8638
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Western_Sierra_Puebla_Nahuatl-MesoTree:
+commit b24a204b56ac43db630779782c95b60a9f33bf7c
+Merge: 7df9c9f 3944b2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'nhi_itml'
+Language-treebank code (from CoNLL-U file name) = 'nhi_mesotree'
 Language code (from CoNLL-U file name) = 'nhi'
-Found the following data files: nhi_itml-ud-test.conllu
-Size: counted 9461 of 9461 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.49435617144461.
+Found the following data files: nhi_mesotree-ud-test.conllu
+Size: counted 19535 of 19535 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.94441545701407.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
+Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 4201 out of 9461 total words have one or more features.
+Features: 4416 out of 19535 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 4 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang nhi --max-err=10 UD_Western_Sierra_Puebla_Nahuatl-ITML/nhi_itml-ud-test.conllu
-[Line 8 Sent canada:1]: [L3 Warning pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 11 Sent canada:1]: [L3 Warning pron-det-without-prontype] The word 'mikeh' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 24 Sent canada:2]: [L3 Warning pron-det-without-prontype] The word 'siki' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 43 Sent canada:4]: [L3 Warning pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 50 Sent canada:4]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 59 Sent canada:4]: [L3 Warning pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 73 Sent canada:5]: [L3 Warning pron-det-without-prontype] The word 'nochi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 74 Sent canada:5]: [L3 Warning pron-det-without-prontype] The word 'non' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 82 Sent canada:5]: [L3 Warning pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 85 Sent canada:5]: [L3 Warning pron-det-without-prontype] The word 'nin' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 433 Sent canada:29]: [L3 Syntax too-many-objects] Multiple direct objects [6, 9] ('semeh', 'totikih') under the predicate 'techmaka'.
-Syntax errors: 1
-Warnings: 1267
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+/net/work/people/zeman/unidep/tools/validate.py --lang nhi --max-err=10 UD_Western_Sierra_Puebla_Nahuatl-MesoTree/nhi_mesotree-ud-test.conllu
+[Line 47 Sent ALIMG:958]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 118 Sent ALIMG:930]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 136 Sent ALIMG:928]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 153 Sent ALIMG:927]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 157 Sent ALIMG:927]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 175 Sent ALIMG:922]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 193 Sent ALIMG:916]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 211 Sent ALIMG:800]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 214 Sent ALIMG:800]: [L3 WARNING pron-det-without-prontype] The word 'miqueh' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 231 Sent ALIMG:796]: [L3 WARNING pron-det-without-prontype] The word 'n' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 25648 Sent ALIMG:496]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya se xiuitl' does not have the 'ExtPos' feature
+[Line 25743 Sent ALIMG:589]: [L3 WARNING fixed-without-extpos] Fixed expression 'in youac' does not have the 'ExtPos' feature
+[Line 25759 Sent ALIMG:592]: [L3 WARNING fixed-without-extpos] Fixed expression 'in youac' does not have the 'ExtPos' feature
+[Line 27871 Sent ALIMG:1433]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+[Line 27909 Sent ALIMG:1435]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+[Line 27927 Sent ALIMG:1436]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+[Line 27945 Sent ALIMG:1437]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+[Line 27963 Sent ALIMG:1438]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+[Line 27981 Sent ALIMG:1439]: [L3 WARNING fixed-without-extpos] Fixed expression 'uan amo' does not have the 'ExtPos' feature
+Warnings: 2920
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
 (weight=0.111111111111111) * (score{genres}=0.222222222222222) = 0.0246913580246914
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.32531234749437) = 0.120486054627545
-(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
-(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.37037037037037) * (score{size}=0.430271138520268) = 0.159359680933433
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.918918918918919) = 0.102102102102102
-(TOTAL score=0.51272613784802) * (availability=1) * (validity=0.01) = 0.0051272613784802
-STARS = 0
-UD_Western_Sierra_Puebla_Nahuatl-ITML	0.0051272613784802	0
+(TOTAL score=0.560357934088548) * (availability=1) * (validity=1) = 0.560357934088548
+STARS = 3
+UD_Western_Sierra_Puebla_Nahuatl-MesoTree	0.560357934088548	3
