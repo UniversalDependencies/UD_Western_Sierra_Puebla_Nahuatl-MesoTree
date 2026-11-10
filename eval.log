@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Western_Sierra_Puebla_Nahuatl-MesoTree:
-commit b24a204b56ac43db630779782c95b60a9f33bf7c
-Merge: 7df9c9f 3944b2b
+commit c30bef730b783fe243f3141397130beb2cb9a0b6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 13:54:33 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'nhi_mesotree'
 Language code (from CoNLL-U file name) = 'nhi'
